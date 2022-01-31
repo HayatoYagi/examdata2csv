@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 8vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Bullet-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Asked-table table, .Asked-table td, .Asked-table th {
+  margin: auto;
+  border: 1px gray solid;
+  border-collapse: collapse;
+}
+
+.Asked-table td, .Asked-table th {
+  width: 100px;
+  white-space: nowrap;
 }
